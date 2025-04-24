@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Calbri,sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn{
+    color:white;
+    text-decoration: none;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #0f5353;
+}
+
+.holiday-heading{
+    font-size:40px;
+    color:rgb(73, 72, 72);
+    margin-bottom: 20px;
+}
+.holiday-paragraph{
+    font-size: 20px;
+    color:darkgray;
+}
+
+/* 
+    landing page section
+*/
+
+.landing-page{
+    background:white url("../images/landingimg.jpg") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.landing-page .wrapper{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+}
+
+.landing-page .flex-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.landing-page .vacation-heading{
+    font-size: 100px;
+    color:#7ebebe;
+}
+
+/* header Section */
+
+.vacation-header{
+    background:radial-gradient(#0f5353,teal);
+    color:white;
+    padding:30px;
+    text-align: center;
+}
+
+.vacation-header .heading{
+    font-size: 40px;
+}
+
+/* 
+    main navbar
+*/
+
+.main-nav{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 0;
+}
+
+.main-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.main-nav a:hover{
+    background-color: #0f5353;
+    color:white;
+    border-radius: 30px;
+}
+
+/* Holiday Section */
+
+.holiday-section{
+    padding: 100px 50px;
+    text-align: center;
+}
+
+
+/* Places to visit sections */
+
+.place-to-visit-section{
+    text-align: center;
+    padding: 10px;
+}
+.place-to-visit-section .holiday-heading{
+    margin-top: 60px;
+}
+.place-to-visit-section .places-div{
+    margin-top: 20px;
+}
+
+.place-to-visit-section .places-div img{
+   height :250px;
+   width: 400px;
+   object-fit: cover;
+   
+}
+
+/* gallery section */
+.gallery-section{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.gallery-section .gallery-div{
+    padding-top: 40px;
+}
+
+.gallery-section .gallery-wrapper {
+
+    width :300px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+
+}
+
+.gallery-section .gallery-wrapper img{
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+   transition: all 0.1s;
+}
+.gallery-section .gallery-wrapper img:hover{
+   transform: scale(1.2,1.2);
+   padding:0px;
+   border: 2px solid black;
+ }
+
+ /* our packages section */
+
+ .packages-section{
+    text-align: center;
+    margin-top: 100px;
+ }
+
+ .packages-section .holiday-heading{
+    padding-top: 80px;
+ }
+
+ .packages-section .package-wrapper{
+    margin-top: 40px;
+    padding: 10px;
+
+ }
+ .packages-section .package-card{
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    width: 300px;
+    padding:10px;
+    margin: 10px;
+    display: inline-block;
+ }
+ .package-card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+ }
+ .package-card .card-heading{
+    font-size: 25px;
+ }
+ .package-card .card-text{
+    font-size: 15px;
+ }
+ .package-card .btn{
+    border-radius: 50px;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 10px;
+ }
+
+ /* footer Section */
+
+ .footer-section{
+    background-color: black;
+    padding: 40px;
+    color: white;
+    text-align: center;
+ }
+ .footer-section a{
+    color:teal;
+    text-decoration: none;
+    font-weight: bold;
+ }
